@@ -7,7 +7,7 @@
         <property name="org.hibernate.dialect.MySQLDialect"/>
         <property name="hibernate.connection.url">jdbc:mysql://0.0.0.0:3306</property>
         <property name="hibernate.connection.username">root</property>
-        <property name="hibernate.connection.password">root</property>
+        <property name="hibernate.connection.password">java_mysql</property>
 
         <mapping resource="de/hibernate/Person.hbm.xml"/>
     </session-factory>
