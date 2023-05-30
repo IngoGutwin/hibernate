@@ -11,8 +11,9 @@ public class PersonHandlerTest {
 
     @Test
     public void addAndShowPersonsTest () {
-        Person person = handler.addPerson( "Meike", "Mura", 29);
-        System.out.println(handler.getPerson(person.getId()));
+        Person person = handler.addPerson( "Meika", "Nielsen", 29);
+        Person person1 = (Person) handler.getPerson(person.getId());
+        System.out.println( person1.toString() );
     }
 
 }
