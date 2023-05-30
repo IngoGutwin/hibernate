@@ -4,15 +4,15 @@
         "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping>
-    <class name="de.hibernate.Person">
+    <class name="de.hibernate.Person" table="persons">
 
-        <id name="id" type="int">
+        <id name="id" type="int" column="id">
             <generator class="native"/>
         </id>
 
-        <property name="firstName" type="string"/>
-        <property name="lastName" type="string"/>
-        <property name="age" type="int"/>
+        <property name="firstName" type="string" column="first_name"/>
+        <property name="lastName" type="string" column="last_name"/>
+        <property name="age" type="int" column="age"/>
 
     </class>
 </hibernate-mapping>
