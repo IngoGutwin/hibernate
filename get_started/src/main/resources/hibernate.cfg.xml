@@ -10,6 +10,6 @@
         <property name="hibernate.connection.username">java-mysql</property>
         <property name="hibernate.connection.password">pwd</property>
 
-        <mapping resource="de/hibernate/Person.hbm.xml"/>
+<!--        <mapping resource="de/hibernate/Person.hbm.xml"/>-->
     </session-factory>
 </hibernate-configuration>

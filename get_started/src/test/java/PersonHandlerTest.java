@@ -6,14 +6,18 @@ public class PersonHandlerTest {
     private final PersonHandler handler = new PersonHandler();
     @Test
     public void addPersonTest() {
-        int personID = handler.addPerson( new Person("Ingo", "Gutwin", 39));
-        System.out.println(personID);
+        for (int i = 1; i < 10; i++) {
+            Person person = new Person("Ingo"+i, "Gutwin"+i, 38);
+            handler.addPerson(person);
+            System.out.println(person.getId());
+        }
     }
 
     @Test
-    public void addAndShowPersonsTest () {
-        int personID = handler.addPerson( "Meika", "Nielsen", 29);
-        System.out.println( personID );
+    public void runTest() {
+        for (int i = 0; i < 5; i++) {
+            this.addPersonTest();
+        }
     }
 
 }

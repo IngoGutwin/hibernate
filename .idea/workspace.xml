@@ -4,10 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc10a21c-1447-43da-8a8d-5c2e5314fdda" name="Changes" comment="Add update property to hibernate.cfg.xml">
-      <change afterPath="$PROJECT_DIR$/get_started/src/main/java/de/hibernate/TransActions.java" afterDir="false" />
+    <list default="true" id="fc10a21c-1447-43da-8a8d-5c2e5314fdda" name="Changes" comment="Add hibernate annotations, refactor dependencies for hibernate">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cbfffceb-8e12-4c4c-96c2-8b9576c9945e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/cbfffceb-8e12-4c4c-96c2-8b9576c9945e.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_started/src/main/java/de/hibernate/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/get_started/src/main/java/de/hibernate/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/get_started/src/main/java/de/hibernate/PersonHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/get_started/src/main/java/de/hibernate/PersonHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_started/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/get_started/src/main/resources/hibernate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/get_started/src/test/java/PersonHandlerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/get_started/src/test/java/PersonHandlerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_started/target/classes/de/hibernate/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/get_started/target/classes/de/hibernate/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_started/target/classes/de/hibernate/PersonHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/get_started/target/classes/de/hibernate/PersonHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_started/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/get_started/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_started/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/get_started/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_started/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/get_started/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_started/target/test-classes/PersonHandlerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/get_started/target/test-classes/PersonHandlerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +103,7 @@
       <recent name="de.hibernate" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PersonHandlerTest.addAndShowPersonsTest">
+  <component name="RunManager" selected="JUnit.PersonHandlerTest.runTest">
     <configuration name="PersonHandlerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="get_started" />
       <option name="PACKAGE_NAME" value="" />
@@ -124,6 +133,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PersonHandlerTest.runTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="get_started" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PersonHandlerTest" />
+      <option name="METHOD_NAME" value="runTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="hibernate" />
       <method v="2">
@@ -139,8 +158,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PersonHandlerTest.addAndShowPersonsTest" />
+        <item itemvalue="JUnit.PersonHandlerTest.runTest" />
         <item itemvalue="JUnit.PersonHandlerTest.addPersonTest" />
+        <item itemvalue="JUnit.PersonHandlerTest.addAndShowPersonsTest" />
         <item itemvalue="JUnit.PersonHandlerTest" />
       </list>
     </recent_temporary>
@@ -155,7 +175,7 @@
       <updated>1685434820053</updated>
       <workItem from="1685434821554" duration="7044000" />
       <workItem from="1685447068903" duration="10619000" />
-      <workItem from="1685517403162" duration="4836000" />
+      <workItem from="1685517403162" duration="12624000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1685435666419</created>
@@ -220,7 +240,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685521834841</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Refactor PersonHandler for Generic typers">
+      <created>1685522606868</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1685522606868</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Pull push">
+      <created>1685522771023</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1685522771023</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +265,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="add-annotations" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -247,6 +293,9 @@
     <MESSAGE value="Add personHandlerTest, update person.xml file, update path to database, add docker-compose.yml" />
     <MESSAGE value="Add a new test scenario and refactor functions in personhandler" />
     <MESSAGE value="Add update property to hibernate.cfg.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add update property to hibernate.cfg.xml" />
+    <MESSAGE value="Refactor PersonHandler for Generic typers" />
+    <MESSAGE value="Pull push" />
+    <MESSAGE value="Add hibernate annotations, refactor dependencies for hibernate" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add hibernate annotations, refactor dependencies for hibernate" />
   </component>
 </project>

@@ -3,7 +3,6 @@ package de.hibernate;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
-import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 
 import java.util.function.Function;
@@ -14,7 +13,8 @@ public class PersonHandler {
 
     public PersonHandler() {
         try {
-            this.factory = new Configuration().configure().buildSessionFactory();
+            //this.factory = new Configuration().configure().buildSessionFactory();
+            this.factory = new Configuration().configure().addAnnotatedClass( Person.class ).buildSessionFactory();
         } catch (HibernateException e) {
             e.printStackTrace();
         }

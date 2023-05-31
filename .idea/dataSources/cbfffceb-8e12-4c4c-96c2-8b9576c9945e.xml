@@ -743,33 +743,41 @@ java-mysql|schema||java-mysql||UPDATE|G</Grants>
       <Engine>InnoDB</Engine>
       <CollationName>latin1_swedish_ci</CollationName>
     </table>
-    <column id="228" parent="227" name="id">
-      <AutoIncrement>2</AutoIncrement>
+    <table id="228" parent="225" name="persons_SEQ">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <column id="229" parent="227" name="id">
+      <AutoIncrement>203</AutoIncrement>
       <DasType>int(11)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="229" parent="227" name="first_name">
+    <column id="230" parent="227" name="first_name">
       <DasType>varchar(255)|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="230" parent="227" name="last_name">
+    <column id="231" parent="227" name="last_name">
       <DasType>varchar(255)|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="231" parent="227" name="age">
+    <column id="232" parent="227" name="age">
       <DasType>int(11)|0s</DasType>
       <Position>4</Position>
     </column>
-    <index id="232" parent="227" name="PRIMARY">
+    <index id="233" parent="227" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="233" parent="227" name="PRIMARY">
+    <key id="234" parent="227" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
+    <column id="235" parent="228" name="next_val">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>1</Position>
+    </column>
   </database-model>
 </dataSource>
