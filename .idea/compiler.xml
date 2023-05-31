@@ -6,8 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="data_base" />
+        <module name="frontend" />
+        <module name="database" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="get_started" target="19" />
+    </bytecodeTargetLevel>
   </component>
 </project>

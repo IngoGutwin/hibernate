@@ -9,7 +9,8 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
-        <module>data_base</module>
+        <module>database</module>
+        <module>frontend</module>
     </modules>
 
     <properties>
