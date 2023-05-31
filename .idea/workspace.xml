@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fc10a21c-1447-43da-8a8d-5c2e5314fdda" name="Changes" comment="Add update property to hibernate.cfg.xml">
+      <change afterPath="$PROJECT_DIR$/get_started/src/main/java/de/hibernate/TransActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_started/src/main/java/de/hibernate/PersonHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/get_started/src/main/java/de/hibernate/PersonHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_started/src/test/java/PersonHandlerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/get_started/src/test/java/PersonHandlerTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="78214928-b0b5-40f1-8930-a10d056408c2" />
+        <option name="url" value="git@github.com:IngoGutwin/hibernate.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2QVNWNsy2b10V0UUKrIi4A3Idgz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;temurin-19&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/lone/Documents/code/java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;database.query.execution&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/get_started/src/main/resources/de/hibernate" />
+      <recent name="$PROJECT_DIR$/get_started/src/main/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="de.hibernate" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.PersonHandlerTest.addAndShowPersonsTest">
+    <configuration name="PersonHandlerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="get_started" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PersonHandlerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonHandlerTest.addAndShowPersonsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="get_started" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PersonHandlerTest" />
+      <option name="METHOD_NAME" value="addAndShowPersonsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonHandlerTest.addPersonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="get_started" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PersonHandlerTest" />
+      <option name="METHOD_NAME" value="addPersonTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="hibernate" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="hibernate" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PersonHandlerTest.addAndShowPersonsTest" />
+        <item itemvalue="JUnit.PersonHandlerTest.addPersonTest" />
+        <item itemvalue="JUnit.PersonHandlerTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc10a21c-1447-43da-8a8d-5c2e5314fdda" name="Changes" comment="" />
+      <created>1685434820053</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685434820053</updated>
+      <workItem from="1685434821554" duration="7044000" />
+      <workItem from="1685447068903" duration="10619000" />
+      <workItem from="1685517403162" duration="4836000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1685435666419</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685435666420</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add .idea folder to gitignore">
+      <created>1685435844106</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685435844106</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add configuration files and make general configuration for hibernate">
+      <created>1685440529085</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685440529085</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add configuration files and make general configuration for hibernate">
+      <created>1685440679960</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685440679960</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Update gitignore">
+      <created>1685447052273</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685447052273</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add PersonHandler">
+      <created>1685448311415</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685448311415</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add personHandlerTest, update person.xml file, update path to database, add docker-compose.yml">
+      <created>1685455679533</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1685455679533</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add a new test scenario and refactor functions in personhandler">
+      <created>1685462337182</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1685462337182</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add update property to hibernate.cfg.xml">
+      <created>1685521834841</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1685521834841</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="Add .idea folder to gitignore" />
+    <MESSAGE value="Add configuration files and make general configuration for hibernate" />
+    <MESSAGE value="Update gitignore" />
+    <MESSAGE value="Add PersonHandler" />
+    <MESSAGE value="Add personHandlerTest, update person.xml file, update path to database, add docker-compose.yml" />
+    <MESSAGE value="Add a new test scenario and refactor functions in personhandler" />
+    <MESSAGE value="Add update property to hibernate.cfg.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add update property to hibernate.cfg.xml" />
+  </component>
+</project>
