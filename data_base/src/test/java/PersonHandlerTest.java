@@ -6,7 +6,7 @@ public class PersonHandlerTest {
     private final PersonHandler handler = new PersonHandler();
     @Test
     public void addPersonTest() {
-        for (int i = 1; i < 10; i++) {
+        for (int i = 1; i < 40; i++) {
             Person person = new Person("Ingo"+i, "Gutwin"+i, 38);
             handler.addPerson(person);
             System.out.println(person.getId());
@@ -14,9 +14,9 @@ public class PersonHandlerTest {
     }
 
     @Test
-    public void runTest() {
-        for (int i = 0; i < 5; i++) {
-            this.addPersonTest();
+    public void getAll() {
+        for(Person person : handler.getAll()) {
+            System.out.println(person);
         }
     }
 

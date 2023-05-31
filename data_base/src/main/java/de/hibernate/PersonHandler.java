@@ -5,6 +5,7 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
+import java.util.List;
 import java.util.function.Function;
 
 public class PersonHandler {
@@ -25,15 +26,15 @@ public class PersonHandler {
     }
 
     public int addPerson( Person person ) {
-        var ta = new TransActions<Integer>( this.factory );
-        return ta.commit( session -> {
+        var transAction = new TransActions<Integer>( this.factory );
+        return transAction.commit( session -> {
             session.persist( person );
             return person.getId();
         });
     }
 
     public Person getPerson( int personID ) {
-        var ta = new TransActions<Person>( this.factory );
+        var transAction = new TransActions<Person>( this.factory );
 
         Function < Session, Person > function = new Function<>() {
             @Override
@@ -43,7 +44,12 @@ public class PersonHandler {
             }
         };
 
-        return ta.commit( function );
+        return transAction.commit( function );
     }
 
+    public List<Person> getAll() {
+        var transAction = new TransActions< List<Person>>(this.factory);
+
+        return transAction.commit( session -> session.createQuery("FROM Person", Person.class).list());
+    }
 }

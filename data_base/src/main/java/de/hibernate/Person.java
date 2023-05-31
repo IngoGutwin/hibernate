@@ -4,14 +4,13 @@ import jakarta.persistence.*;
 
 @Entity
 public class Person {
-    @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id", updatable = false, nullable = false)
+    @Id
+    @GeneratedValue( strategy = GenerationType.SEQUENCE, generator = "person_generator" )
+    @SequenceGenerator( name= "person_generator", sequenceName = "person_seq", allocationSize = 1 )
+
     private int id;
-    @Column(name="first_name")
     private String firstName;
-    @Column(name="last_name")
     private String lastName;
-    @Column(name="age")
     private int age;
 
     public Person() {}
@@ -21,7 +20,6 @@ public class Person {
         this.lastName = lastName;
         this.age = age;
     }
-
 
     public int getId() {
         return id;

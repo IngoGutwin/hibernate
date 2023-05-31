@@ -9,7 +9,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>get_started</artifactId>
+    <artifactId>data_base</artifactId>
 
     <properties>
         <maven.compiler.source>19</maven.compiler.source>
