@@ -20,62 +20,30 @@ public class PersonHandler {
         }
     }
 
-   /* public Integer addPerson( Person person) {
-        Session session = factory.openSession();
-        Transaction transaction = null;
-        int personID = 0;
-        try {
-            transaction = session.beginTransaction();
-            personID = (Integer) session.save(person);
-            transaction.commit();
-        } catch (HibernateException e) {
-            if (transaction != null) transaction.rollback();
-        } finally {
-            session.close();
-        }
-        return personID;
-    }*/
+    public int addPerson( String firstName, String lastName, int age  ) {
+        return addPerson( new Person( firstName, lastName, age ) );
+    }
 
-/*
-    public Person getPerson( int personID ) {
-        Transaction transaction = null;
-        try( Session session = factory.openSession();) {
-            transaction = session.beginTransaction();
-            Person person = session.get( Person.class, personID );
-            transaction.commit();
-            return person;
-        } catch ( HibernateException e ) {
-            if( transaction != null ) transaction.rollback();
-        }
-        return null;
-    }
-*/
-    public Person addPerson (String firstName, String lastName, int age) {
-        var person = new Person(firstName,lastName,age);
-        addPerson(person);
-        return person;
-    }
-    public void addPerson( Person person ) {
-        transaction(session -> {
-            session.persist(person);
-            return null;
+    public int addPerson( Person person ) {
+        var ta = new TransActions<Integer>( this.factory );
+        return ta.commit( session -> {
+            session.persist( person );
+            return person.getId();
         });
     }
 
-    public Object getPerson(int personID) {
-        return transaction( session -> session.get(Person.class, personID) );
+    public Person getPerson( int personID ) {
+        var ta = new TransActions<Person>( this.factory );
+
+        Function < Session, Person > function = new Function<>() {
+            @Override
+            public Person apply( Session session ) {
+                Person p = session.get( Person.class, personID );
+                return p;
+            }
+        };
+
+        return ta.commit( function );
     }
 
-    synchronized public Object transaction( Function <Session, Object> function ) {
-        Transaction transaction = null;
-        try (Session session = factory.openSession()) {
-            transaction = session.beginTransaction();
-            Object object = function.apply(session);
-            transaction.commit();
-            return object;
-        } catch (HibernateException e) {
-            if (transaction != null) transaction.rollback();
-        }
-        return null;
-    }
 }

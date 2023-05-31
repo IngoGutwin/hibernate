@@ -6,14 +6,14 @@ public class PersonHandlerTest {
     private final PersonHandler handler = new PersonHandler();
     @Test
     public void addPersonTest() {
-        handler.addPerson( new Person("Ingo", "Gutwin", 39));
+        int personID = handler.addPerson( new Person("Ingo", "Gutwin", 39));
+        System.out.println(personID);
     }
 
     @Test
     public void addAndShowPersonsTest () {
-        Person person = handler.addPerson( "Meika", "Nielsen", 29);
-        Person person1 = (Person) handler.getPerson(person.getId());
-        System.out.println( person1.toString() );
+        int personID = handler.addPerson( "Meika", "Nielsen", 29);
+        System.out.println( personID );
     }
 
 }
