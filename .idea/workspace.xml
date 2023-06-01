@@ -4,42 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc10a21c-1447-43da-8a8d-5c2e5314fdda" name="Changes" comment="Add hibernate annotations, refactor dependencies for hibernate">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/main/java/de/hibernate/frontend/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/main/java/de/hibernate/frontend/PersonTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bac47258-0621-49aa-bce8-a4f668da9de5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bac47258-0621-49aa-bce8-a4f668da9de5/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c9295328-d6ec-42c6-ad80-baf5ce548de4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c9295328-d6ec-42c6-ad80-baf5ce548de4/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cbfffceb-8e12-4c4c-96c2-8b9576c9945e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/cbfffceb-8e12-4c4c-96c2-8b9576c9945e.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+    <list default="true" id="fc10a21c-1447-43da-8a8d-5c2e5314fdda" name="Changes" comment="Add gitignore">
+      <change afterPath="$PROJECT_DIR$/frontend/src/test/java/FrontendTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_base/data_base.iml" beforeDir="false" afterPath="$PROJECT_DIR$/database/database.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/database/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_base/src/main/java/de/hibernate/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/main/java/de/hibernate/database/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_base/src/main/java/de/hibernate/PersonHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/main/java/de/hibernate/database/PersonHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_base/src/main/java/de/hibernate/TransActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/main/java/de/hibernate/database/TransActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_base/src/main/resources/de/hibernate/Person.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/main/resources/de/hibernate/Person.hbm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_base/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_base/src/test/java/PersonHandlerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/test/java/PersonHandlerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_base/target/classes/de/hibernate/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_base/target/classes/de/hibernate/Person.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/database/target/classes/de/hibernate/Person.hbm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_base/target/classes/de/hibernate/PersonHandler$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_base/target/classes/de/hibernate/PersonHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_base/target/classes/de/hibernate/TransActions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_base/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/database/target/classes/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_base/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/database/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_base/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_base/target/test-classes/PersonHandlerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/database/target/classes/module-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/java/de/hibernate/frontend/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/java/de/hibernate/frontend/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/java/de/hibernate/frontend/PersonTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/java/de/hibernate/frontend/PersonTable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="module-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -92,32 +63,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "temurin-19",
-    "last_opened_file_path": "/home/lone/.jdks/openjdk-19.0.2/lib",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.52048415",
-    "settings.editor.selected.configurable": "database.query.execution",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;temurin-19&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/lone/.jdks/openjdk-19.0.2/lib&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.52048415&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;database.query.execution&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/database/src/main/java" />
@@ -183,24 +154,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="hibernate" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="hibernate" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.PersonHandlerTest.getAll" />
         <item itemvalue="JUnit.PersonHandlerTest.addPersonTest" />
+        <item itemvalue="JUnit.PersonHandlerTest.getAll" />
         <item itemvalue="JUnit.PersonHandlerTest.runTest" />
         <item itemvalue="JUnit.PersonHandlerTest.addAndShowPersonsTest" />
       </list>
@@ -217,6 +175,8 @@
       <workItem from="1685434821554" duration="7044000" />
       <workItem from="1685447068903" duration="10619000" />
       <workItem from="1685517403162" duration="16075000" />
+      <workItem from="1685596925218" duration="74000" />
+      <workItem from="1685600753588" duration="2963000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1685435666419</created>
