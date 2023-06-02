@@ -17,7 +17,7 @@ public class TransActions<T> {
 
     synchronized public T commit( Function< Session, T > function ) {
         Transaction ta = null;
-        try( Session session = factory.openSession();) {
+        try( Session session = factory.openSession()) {
             ta = session.beginTransaction();
             T rv =  function.apply(session);
             ta.commit();

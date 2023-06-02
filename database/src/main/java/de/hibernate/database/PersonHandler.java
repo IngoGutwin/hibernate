@@ -14,7 +14,6 @@ public class PersonHandler {
 
     public PersonHandler() {
         try {
-            //this.factory = new Configuration().configure().buildSessionFactory();
             this.factory = new Configuration().configure().addAnnotatedClass( Person.class ).buildSessionFactory();
         } catch (HibernateException e) {
             e.printStackTrace();
@@ -36,12 +35,8 @@ public class PersonHandler {
     public Person getPerson( int personID ) {
         var transAction = new TransActions<Person>( this.factory );
 
-        Function < Session, Person > function = new Function<>() {
-            @Override
-            public Person apply( Session session ) {
-                Person p = session.get( Person.class, personID );
-                return p;
-            }
+        Function < Session, Person > function = session -> {
+            return session.get( Person.class, personID );
         };
 
         return transAction.commit( function );

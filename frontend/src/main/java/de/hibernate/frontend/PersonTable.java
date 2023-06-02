@@ -9,11 +9,10 @@ public class PersonTable extends TableView <Person> {
 
 
     public PersonTable() {
-        TableColumn < Person, Integer   > id        = new TableColumn<>("id");
-        TableColumn < Person, String    > firstName = new TableColumn<>("firstName");
-        TableColumn < Person, String    > lastName  = new TableColumn<>("lastName");
-        TableColumn < Person, Integer   > age       = new TableColumn<>("age");
-
+        TableColumn < Person, Integer   > id        = new TableColumn<>("ID");
+        TableColumn < Person, String    > firstName = new TableColumn<>("FIRSTNAME");
+        TableColumn < Person, String    > lastName  = new TableColumn<>("LASTNAME");
+        TableColumn < Person, Integer   > age       = new TableColumn<>("AGE");
 
         id          .setCellValueFactory( new PropertyValueFactory<>("id") );
         firstName   .setCellValueFactory( new PropertyValueFactory<>("firstName") );

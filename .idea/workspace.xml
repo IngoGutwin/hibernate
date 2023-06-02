@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc10a21c-1447-43da-8a8d-5c2e5314fdda" name="Changes" comment="Refactor module-info.java">
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/java/de/hibernate/frontend/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/java/de/hibernate/frontend/Main.java" afterDir="false" />
+    <list default="true" id="fc10a21c-1447-43da-8a8d-5c2e5314fdda" name="Changes" comment="Refactor imports">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/src/main/java/de/hibernate/database/PersonHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/main/java/de/hibernate/database/PersonHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/src/main/java/de/hibernate/database/TransActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/main/java/de/hibernate/database/TransActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/src/main/resources/de/hibernate/Person.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/target/classes/de/hibernate/Person.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/target/classes/de/hibernate/database/PersonHandler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/database/target/classes/de/hibernate/database/PersonHandler$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/target/classes/de/hibernate/database/PersonHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/database/target/classes/de/hibernate/database/PersonHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/java/de/hibernate/frontend/PersonTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/java/de/hibernate/frontend/PersonTable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +60,6 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -72,7 +78,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.52048415&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;database.query.execution&quot;,
@@ -171,7 +177,8 @@
       <workItem from="1685447068903" duration="10619000" />
       <workItem from="1685517403162" duration="16075000" />
       <workItem from="1685596925218" duration="74000" />
-      <workItem from="1685600753588" duration="3045000" />
+      <workItem from="1685600753588" duration="9496000" />
+      <workItem from="1685685490684" duration="3134000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1685435666419</created>
@@ -264,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685603778129</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Refactor imports">
+      <created>1685603813045</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1685603813046</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,6 +321,7 @@
     <MESSAGE value="Pull push" />
     <MESSAGE value="Add hibernate annotations, refactor dependencies for hibernate" />
     <MESSAGE value="Refactor module-info.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor module-info.java" />
+    <MESSAGE value="Refactor imports" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor imports" />
   </component>
 </project>
